@@ -1,0 +1,3 @@
+ALTER TABLE pokemon 
+    ADD COLUMN hp INTEGER 
+    CONSTRAINT hp_d DEFAULT 60;
